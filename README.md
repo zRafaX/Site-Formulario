@@ -8,7 +8,7 @@ A estrutura do projeto inclui os seguintes arquivos:
 
 ### Arquivos e Funções
 
-- `index.html`: Arquivo HTML que contém a estrutura do conteúdo do site, incluindo cabeçalho, seções de apresentação, sobre, serviços e contato, além do rodapé.
+- `formulario.html`: Arquivo HTML que contém a estrutura do conteúdo do site, incluindo cabeçalho, seções de apresentação, sobre, serviços e contato, além do rodapé.
 - `styles.css`: Arquivo CSS para definir o layout, cores, e estilos gerais do site, incluindo responsividade.
 - `README.md`: Arquivo de documentação, onde você encontra informações sobre o projeto e como utilizá-lo.
 
