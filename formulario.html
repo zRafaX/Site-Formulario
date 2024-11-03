@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho e Navegação -->
+    <header>
+        <nav>
+            <h1>Meu Site</h1>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Boas-Vindas -->
+    <section id="home">
+        <div class="hero">
+            <h2>Bem-vindo ao ...</h2>
+            <p>Estamos aqui para oferecer os melhores serviços e informações para você.</p>
+            <a href="#contact" class="btn">Entre em Contato</a>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma empresa dedicada a oferecer soluções personalizadas para nossos clientes. Com uma equipe altamente qualificada, estamos sempre prontos para ajudar você a atingir seus objetivos.</p>
+        <p>Nossa missão é fornecer serviços de alta qualidade e construir relacionamentos duradouros com nossos clientes.</p>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="services">
+        <h2>Serviços</h2>
+        <div class="service">
+            <h3>Consultoria</h3>
+            <p>Oferecemos consultoria especializada para ajudar sua empresa a crescer e alcançar novos patamares.</p>
+        </div>
+        <div class="service">
+            <h3>Desenvolvimento Web</h3>
+            <p>Construímos websites modernos, responsivos e personalizados para atender às necessidades de seu negócio.</p>
+        </div>
+        <div class="service">
+            <h3>Design Gráfico</h3>
+            <p>Nossa equipe de design cria visuais atraentes e únicos que ajudam sua marca a se destacar.</p>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contact">
+        <h2>Fale Conosco</h2>
+        <p>Preencha o formulário abaixo para entrar em contato conosco. Retornaremos o mais rápido possível.</p>
+        <form action="#" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024. Todos os direitos reservados.</p>
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
