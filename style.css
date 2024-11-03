@@ -1,0 +1,210 @@
+/* Reset de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+/* Cabeçalho e Navegação */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+    font-size: 1.8em;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ddd;
+}
+
+/* Seção de Boas-Vindas */
+.hero {
+    background-color: #555;
+    color: #fff;
+    padding: 4em 1em;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.2em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.hero .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 0.8em 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #444;
+}
+
+/* Seções de Conteúdo (Sobre e Serviços) */
+section {
+    padding: 2em 1em;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+#about, #services {
+    background-color: #fff;
+    margin: 1em 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 0.8em;
+}
+
+section p {
+    margin-bottom: 1em;
+    color: #555;
+}
+
+/* Estilo dos Serviços */
+.service {
+    margin-bottom: 1.5em;
+}
+
+.service h3 {
+    font-size: 1.4em;
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+.service p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Seção de Contato */
+#contact {
+    padding: 2em 1em;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 2em auto;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#contact label {
+    font-weight: bold;
+    color: #333;
+}
+
+#contact input, 
+#contact textarea, 
+#contact button {
+    padding: 0.8em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+#contact input:focus, 
+#contact textarea:focus {
+    border-color: #333;
+}
+
+#contact button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #555;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2em;
+}
+
+footer p {
+    margin-bottom: 0.5em;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #ddd;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    .hero h2 {
+        font-size: 1.8em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+}
